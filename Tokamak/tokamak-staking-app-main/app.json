@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "tokamak-staking-app",
+    "slug": "tokamak-staking-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/TokamakLogoSquare.png",
+    "splash": {
+      "image": "./assets/TN_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "tokamak.staking.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/TokamakLogoSquare.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "tokamak.staking.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    }
+  }
+}
